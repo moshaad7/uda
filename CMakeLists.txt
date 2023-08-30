@@ -71,7 +71,8 @@ GoModBuild (TARGET uda PACKAGE github.com/moshaad7/uda/cmd/uda
   INSTALL_PATH bin OUTPUT uda
   GOVERSION ${GOVERSION})
 
-ADD_DEPENDENCIES(uda sigar n1ql-yacc)
+# ADD_DEPENDENCIES(uda sigar n1ql-yacc)
+ADD_DEPENDENCIES(uda sigar)
 IF (BUILD_ENTERPRISE)
 ADD_DEPENDENCIES (uda jseval)
 ENDIF ()

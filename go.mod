@@ -8,8 +8,6 @@ replace github.com/couchbase/regulator => ../../../../../goproj/src/github.com/c
 
 replace github.com/couchbase/go_json => ../../../../../goproj/src/github.com/couchbase/go_json
 
-replace github.com/couchbase/query => ../../../../../goproj/src/github.com/couchbase/query
-
 require github.com/couchbase/eventing-ee v0.0.0-00010101000000-000000000000
 
 require (
